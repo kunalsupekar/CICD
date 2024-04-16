@@ -1,14 +1,9 @@
 version: 0.2
 
-env:
-  variables:
-    JAVA_HOME: "/opt/java17"
-    PATH: "${JAVA_HOME}/bin:${PATH}"
-
 phases:
   install:
     runtime-versions:
-      java: corretto-17
+      java: corretto17
   build:
     commands:
       - mvn clean install
