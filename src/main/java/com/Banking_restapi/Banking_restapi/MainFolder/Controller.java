@@ -27,7 +27,7 @@ public class Controller {
 	//testing purpose
 	@GetMapping("/bank")
 	public String testing() {
-		return "hello bank! cicd pipeline";
+		return "hello bank! cicd pipeline  kunal";
 		
 	}
 	
